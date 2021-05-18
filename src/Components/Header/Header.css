@@ -1,0 +1,55 @@
+.GeneralHeader{
+  height: 94px;
+  width: 100vw;
+  /* background-color: #f8fcff; */
+  /* background-color: rgba(255, 255, 255, 0.1); */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  transition-property: background-color;
+  transition-duration: 500ms;
+  transition-timing-function: ease-out;
+  transition-delay: 0s;
+}
+
+
+
+.SubGeneralHeader{
+  width: 1090px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.NavDiv{
+  width: 541px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  color: #f5e8d7;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.NavDiv>div:hover{
+  color: #fff;
+  cursor: pointer;
+}
+
+.ButtonDiv{
+  width: 103px;
+  height: 40px;
+  background: linear-gradient(to right, #fc9206, #ffb527);
+  border: none;
+  outline: none;
+  border-radius: 18px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 14px;
+}

@@ -1,0 +1,38 @@
+.ContinetCardMain{
+  width: 331px;
+  height: 117px;
+  background-color: #fff;
+  box-shadow: 0px 0px 23px 0px #7c8e9b17;
+  border-radius: 0 30px 30px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.SubContinetCard{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.imgContdiv{
+  height: 95px;
+  width: 95px;
+}
+
+.ContiImgdiv{
+  width:80px;
+}
+
+.ConitText{
+  color: #7c8e9b;
+}
+
+.ContiBig{
+ font-size: larger;
+ font-weight: 600;
+}
+
+.Contismall{
+  font-size: 15px;
+}

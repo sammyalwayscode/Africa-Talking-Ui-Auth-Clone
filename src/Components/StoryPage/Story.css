@@ -1,0 +1,98 @@
+section{
+  display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    justify-content: space-around;
+    -webkit-box-align: center;
+    align-items: center;
+    /* background-color: rgb(19, 106, 172); */
+    flex-flow: row;
+    flex-direction: row;
+    flex-wrap: initial;
+}
+
+.StoryDivMain{
+  position: relative;
+  min-height: 500px;
+  /* background-color: lightblue; */
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  font-family: poppins;
+  margin-bottom: 100px;
+}
+
+.SubStorydiv{
+  height: 100%;
+    width: 70%;
+    top: 0;
+    left: 0;
+    background-color: #fc9206;
+    position: absolute;
+    border-radius: 0 50px 50px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.TestingDiv{
+  width: 80%;
+  /* background-color: aquamarine; */
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.StoryText{
+  width: 390px;
+  /* background-color: green; */
+  color: #fff;
+  /* align-self: center; */
+    /* -ms-flex-preferred-size: 300px; */
+    /* flex-basis: 300px; */
+    /* -webkit-box-flex: 2; */
+    /* -ms-flex-positive: 2; */
+    /* flex-grow: 2; */
+    /* margin: 50px 0; */
+    z-index: 1
+}
+
+.strTitTxt{
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 35px;
+}
+
+.strSmTxt{
+  width: 342px;
+  font-size: 14px;
+}
+
+.VidHold{
+  width: 1100px;
+  display: flex;
+  justify-content: flex-end;
+  z-index: 1;
+}
+
+.YouTubeCard{
+  height: 341px;
+  width: 604px;
+  background-color: darkcyan;
+  border-radius: 30px;
+  z-index: 1;
+  box-shadow: 11px 14px 45px 0px rgb(34 36 38 / 18%);
+}
+
+.StrBtn{
+  height: 47px;
+  width: 225px;
+  background-color: #ffb527;
+  border: none;
+  outline: none;
+  border-radius: 22px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #fff;
+}

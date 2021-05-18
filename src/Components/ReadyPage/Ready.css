@@ -1,0 +1,34 @@
+.MainReddiv{
+  height: 217px;
+  width: 100vw;
+  background-color: #f3f7f9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.SubRedDiv{
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.ReadyQus{
+  color: #7c8e9b;
+  font-size: xx-large;
+  font-weight: 600;
+  margin-bottom: 13px;
+}
+
+.RedyBtn{
+  width: 239px;
+  height: 51px;
+  background-color: #ffb527;
+  color: #f8f8f8;
+  font-size: large;
+  font-weight: 600;
+  border-radius: 50px;
+  border: none;
+  outline: none;
+}

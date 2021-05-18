@@ -1,0 +1,51 @@
+.DevelopersMain{
+  height:568px ;
+  width: 100%;
+  background-color: #fc9206;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  font-family: poppins;
+}
+
+.DevHeading{
+  font-size: 25px;
+  font-weight: bold;
+  color: #fff;
+  margin-bottom: 50px;
+}
+
+.SubDevelopersdiv{
+  width: 1082px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.DevText{
+  width: 432px;
+  color: #fff;
+}
+
+.DevBigText{
+  font-weight: 500;
+  font-size: larger;
+}
+
+.DevSmallText{
+  font-size: 13.5px;
+}
+
+.DevButton{
+  height: 37px;
+  width: 135px;
+  background-color: #ffb527;
+  border-radius: 15px;
+  border: none;
+  outline: none;
+  color: #fff;
+  font-weight: 600;
+  margin-top: 15px;
+}

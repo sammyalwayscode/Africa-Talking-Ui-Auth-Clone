@@ -1,0 +1,58 @@
+.ProductCardMain{
+  /* height: 321px; */
+  width: 224px;
+  background-color: #fff;
+  margin: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  border-radius: 7px;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 3px 9px 0 rgba(0, 0, 0, 0.19);
+  /* box-shadow: 0px 0px 33px 0px #7c8e9b17; */
+}
+
+.ProductCardMain:hover{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  cursor: pointer;
+}
+
+.ProductWidthControl{
+  width: 190px;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  /* background-color: darkmagenta; */
+}
+
+.SvgIcon{
+  width: 140px;
+
+}
+
+.CadTitle{
+  font-weight: bold;
+  color: #fc9610;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.CadContent{
+  font-size: 13px;
+  margin-bottom: 10px;
+  color: #8797a3;
+}
+
+.LearnMoreDiv{
+  color: #dcdcdc;
+  font-weight: 400;
+  margin-bottom: 13px;
+  display: flex;
+  margin-right: 105px;
+  font-size: 14px;
+}
+
+.LearnMoreDiv:hover{
+  color: #40a161;
+}

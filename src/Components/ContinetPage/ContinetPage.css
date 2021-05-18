@@ -1,0 +1,27 @@
+.mainContinetPage{
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.SubContinetDiv{
+  width: 980px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.MapImgHold{
+  width: 550px;
+}
+
+.MapCardHold{
+  height: 415px;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-between;
+  align-items: center;
+}

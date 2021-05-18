@@ -1,0 +1,9 @@
+.MainLandPage{
+  height: 670px;
+  background-image: url('../Img/head.png');
+  margin-top: -100px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 100px;
+}
